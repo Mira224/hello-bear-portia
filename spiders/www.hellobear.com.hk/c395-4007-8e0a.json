@@ -1,0 +1,198 @@
+{
+    "extractors": {},
+    "id": "c395-4007-8e0a",
+    "name": "Hello Bear",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "3eca-4264-945c#parent",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "a0e8-4f50-af68",
+                    "selector": ".home",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": "3eca-4264-945c#parent",
+                    "id": "3eca-4264-945c",
+                    "item_container": true,
+                    "repeated": true,
+                    "required": [],
+                    "schema_id": "a0e8-4f50-af68",
+                    "selector": ".Grid-row-wrapper:nth-child(2n+28) > .Grid-row > .Grid-item > .editor-boxify-image-wrapper",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        " .sl-lazy-image"
+                    ],
+                    "container_id": "3eca-4264-945c",
+                    "data": {
+                        "d3c4-499e-9396": {
+                            "attribute": "ng-src",
+                            "extractors": {},
+                            "field": "413a-4a0e-a177",
+                            "required": false
+                        }
+                    },
+                    "id": "80f8-471f-82e3",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": " .sl-lazy-image",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//"
+                },
+                {
+                    "accept_selectors": [
+                        "span:nth-child(7) > span"
+                    ],
+                    "container_id": "3eca-4264-945c",
+                    "data": {
+                        "b60a-4bbe-8efa": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "0bc6-49eb-933b",
+                            "required": false
+                        }
+                    },
+                    "id": "abef-40fb-a4c3",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "css",
+                    "selector": "span:nth-child(7) > span",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//span[7]/span"
+                },
+                {
+                    "accept_selectors": [
+                        "#page-item-5ff54aedee2804002651e0d1 > .editor-boxify-image-wrapper > .sl-lazy-image",
+                        "#page-item-5ff54aedee2804002651e0cd > .editor-boxify-image-wrapper > .sl-lazy-image"
+                    ],
+                    "container_id": "3eca-4264-945c",
+                    "data": {
+                        "5c7a-46f3-b5f8": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "61f7-4534-9411",
+                            "required": false
+                        }
+                    },
+                    "id": "f24a-48a8-8784",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": true,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".Grid-row-wrapper:nth-child(2n+28) > .Grid-row > .Grid-item > .editor-boxify-image-wrapper > .sl-lazy-image",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[position() mod 2 = 0 and position() >= 28][contains(concat(\" \", @class, \" \"), \" Grid-row-wrapper \")]/*[contains(concat(\" \", @class, \" \"), \" Grid-row \")]/*[contains(concat(\" \", @class, \" \"), \" Grid-item \")]/*[contains(concat(\" \", @class, \" \"), \" editor-boxify-image-wrapper \")]/*[contains(concat(\" \", @class, \" \"), \" sl-lazy-image \")]"
+                },
+                {
+                    "accept_selectors": [
+                        "#grid-item-5b5ab2060e64fe5659007e15 > div > .box-info > .description > p > span:nth-child(1) > span > span > a"
+                    ],
+                    "container_id": "3eca-4264-945c",
+                    "data": {
+                        "70a4-4840-8ad5": {
+                            "attribute": "href",
+                            "extractors": {},
+                            "field": "f025-4797-9b87",
+                            "required": false
+                        }
+                    },
+                    "id": "2746-407b-81d9",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": "#grid-item-5b5ab2060e64fe5659007e15 > div > .box-info > .description > p > span:nth-child(1) > span > span > a",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[@id=\"grid-item-5b5ab2060e64fe5659007e15\"]/div/*[contains(concat(\" \", @class, \" \"), \" box-info \")]/*[contains(concat(\" \", @class, \" \"), \" description \")]/p/span[1]/span/span/a"
+                },
+                {
+                    "accept_selectors": [
+                        ".container:nth-child(1) > .container-md-height > .row"
+                    ],
+                    "container_id": "3eca-4264-945c",
+                    "data": {
+                        "68bd-4553-93bc": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "e05b-43cd-b568",
+                            "required": false
+                        }
+                    },
+                    "id": "d16f-47ce-bea2",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".container:nth-child(1) > .container-md-height > .row",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" container \")]/*[contains(concat(\" \", @class, \" \"), \" container-md-height \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]"
+                },
+                {
+                    "accept_selectors": [
+                        "#grid-item-5b5ab2060e64fe5659007e17 > div > .box-info > .description"
+                    ],
+                    "container_id": "3eca-4264-945c",
+                    "data": {
+                        "ee56-4499-84cb": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "8863-4cb8-ab58",
+                            "required": false
+                        }
+                    },
+                    "id": "9cbe-4efa-912b",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": "#grid-item-5b5ab2060e64fe5659007e17 > div > .box-info > .description",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[@id=\"grid-item-5b5ab2060e64fe5659007e17\"]/div/*[contains(concat(\" \", @class, \" \"), \" box-info \")]/*[contains(concat(\" \", @class, \" \"), \" description \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "a0e8-4f50-af68",
+    "spider": "www.hellobear.com.hk",
+    "url": "https://www.hellobear.com.hk/",
+    "version": "0.13.3"
+}
