@@ -1,0 +1,32 @@
+{
+    "extractors": {},
+    "id": "c837-423a-807f",
+    "name": "",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "68a4-4d4e-8b44",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "96c6-44a0-a069",
+                    "selector": null,
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                }
+            ]
+        }
+    },
+    "scrapes": "96c6-44a0-a069",
+    "spider": "www.hellobear.com.hk",
+    "url": "https://www.hellobear.com.hk/blog/posts/%E3%80%90%E8%B3%80%E5%B9%B4%E7%A6%AE%E7%9B%92%E3%80%91%E6%8B%9C%E5%B9%B4%E9%80%81%E4%BB%80%E9%BA%BC%EF%BC%9F%E5%8A%A0%E9%BB%9E%E6%96%B0%E6%84%8F%EF%BD%9E%E7%89%B9%E5%88%A5%E7%A6%AE%E7%9B%92%E6%8E%A8%E4%BB%8B%EF%BC%81",
+    "version": "0.13.3"
+}

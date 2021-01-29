@@ -1,0 +1,65 @@
+{
+    "96c6-44a0-a069": {
+        "auto_created": true, 
+        "fields": {}, 
+        "name": ""
+    }, 
+    "a0e8-4f50-af68": {
+        "fields": {
+            "7822-48c4-8a3c": {
+                "id": "7822-48c4-8a3c", 
+                "name": "field1", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "413a-4a0e-a177": {
+                "id": "413a-4a0e-a177", 
+                "name": "field2", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }, 
+            "0bc6-49eb-933b": {
+                "id": "0bc6-49eb-933b", 
+                "name": "infor", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "61f7-4534-9411": {
+                "auto_created": true, 
+                "id": "61f7-4534-9411", 
+                "name": "field3", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }, 
+            "f025-4797-9b87": {
+                "auto_created": true, 
+                "id": "f025-4797-9b87", 
+                "name": "field4", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "e05b-43cd-b568": {
+                "auto_created": true, 
+                "id": "e05b-43cd-b568", 
+                "name": "field5", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "8863-4cb8-ab58": {
+                "auto_created": true, 
+                "id": "8863-4cb8-ab58", 
+                "name": "field6", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "Hello Bear"
+    }
+}
